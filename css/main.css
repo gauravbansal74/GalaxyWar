@@ -1,0 +1,36 @@
+body{
+    background-image: url("/images/background.gif");
+    padding: 0px;
+    margin: 0px;
+}
+
+.enemies, .friend{
+    display:inline-block;
+    /*border: 1px solid red;*/
+}
+
+.enemies{
+    min-width:90%;
+    min-height: 638px;
+    vertical-align: top;
+    margin:0px;
+    text-align: right;
+    
+}
+
+.friend{
+    min-width:5%;
+    min-height: 638px;
+    margin:0px;
+}
+
+#player{
+    width:50px;
+    position:absolute;
+}
+
+.firebullet{
+    position: absolute;
+    padding-top: 8px;
+    right: 80px;
+}
