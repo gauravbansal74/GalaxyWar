@@ -15,7 +15,6 @@ function fireBullets(){
 function playerMoveUp(){
     var currentTop = document.getElementById("player").offsetTop;
     document.getElementById("player").style.top = (currentTop-10)+"px";
-    //console.log(currentTop);
 };
 
 
