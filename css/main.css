@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/background.gif");
+    background-image: url("../images/background.gif");
     padding: 0px;
     margin: 0px;
 }

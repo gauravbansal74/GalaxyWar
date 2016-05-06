@@ -2,7 +2,7 @@ function fireBullets(){
     var currentSpace = document.getElementById("enemies");
     var createNewEnemy = document.createElement("IMG");
     var bulletId = new Date().getTime();
-    createNewEnemy.setAttribute("src", "images/fire.gif");
+    createNewEnemy.setAttribute("src", "./images/fire.gif");
     createNewEnemy.setAttribute("id",bulletId);
     createNewEnemy.setAttribute("class","firebullet");
     createNewEnemy.setAttribute("alt", "I am going to kill you.");
